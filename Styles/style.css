@@ -109,8 +109,59 @@ main {
 #about {
   margin-top: 5rem;
   border-radius: 10px;
-  padding: 125px 149px;
+  padding: 125px 155px;
   text-align: center;
 }
+#about .section-title {
+  margin-bottom: 28px;
+}
+.about-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 28px;
+}
+.item-title {
+  font-size: 19px;
+  color: #757575;
+}
+.item-description {
+  font-size: 19px;
+  font-weight: 700;
+  color: #474747;
+}
 
-/* Banner Styles */
+/* Skills Styles */
+#skills {
+  margin-top: 5rem;
+  /* text-align: center; */
+}
+#skills > p {
+  padding: 0 120px;
+}
+#skills .card-box {
+  margin-top: 48px;
+  display: flex;
+  gap: 23px;
+}
+#skills .card {
+  width: 256px;
+  padding: 28px;
+  box-shadow: 10px 0px 20px rgba(39, 39, 39, 0.4);
+  border-radius: 5px;
+}
+#skills .card h3 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 18px 0;
+}
+#skills .card p {
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
+
+/* Footer Styles */
+footer {
+  height: 250px;
+}

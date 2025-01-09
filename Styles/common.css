@@ -28,8 +28,10 @@
   font-size: 33px;
   font-weight: bold;
   color: #181818;
+  text-align: center;
 }
 .section-description {
   font-size: 17px;
   color: #757575;
+  text-align: center;
 }
